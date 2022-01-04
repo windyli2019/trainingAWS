@@ -37,12 +37,12 @@ function escape1($str)
 <title>test page for database access</title>
 </head>
 <body >
-Add Comment by Windyli!!<br<br>
+<br>Add Comment by Windyli!!<br
 Last Access Time<br><br>
 <?php foreach ($rec as $a):?>
         <?=escape1($a)?><br>
 <?php endforeach; ?>
-<br>end Comment<br>
+<br>end Comment round 2!<br>
 </body>
 </html>
 
